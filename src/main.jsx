@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <App />,
   }, 
 {
-  path:"EnglishNow",
+  path:"englishnow",
   element: <EnglishNow />,
 },
 ]);
