@@ -7,6 +7,9 @@ export default {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']
       },
+      backgroundImage: {
+        'hero': "url('./src/assets/englishnow/teamwork.avif')",
+      },
     },
   },
   plugins: [],

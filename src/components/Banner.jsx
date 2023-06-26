@@ -43,20 +43,20 @@ const Banner = () => {
       <div>
         <img src={wave} className="h-20 w-full" />
       </div>
-      <div className="px-40 ">
-        <h1 className="text-5xl font-bold  text-gray-900 mb-5">
+      <div className="md:px-40  px-5">
+        <h1 className="md:text-5xl font-extrabold  text-3xl text-gray-900 mb-5">
           Ofrecemos una serie de beneficios para nuestros estudiantes{" "}
         </h1>
         <div className="grid sm:grid-cols-3 grid-cols-1 gap-9">
           <div className="bg-gray-900  flex flex-col items-center  p-2 rounded-3xl drop-shadow-2xl">
             <button className="bg-gray-900  px-4 py-4 -top-7 relative  rounded-full font-bold text-sky-500">
-              <AiOutlineDeliveredProcedure />
+              <AiOutlineDeliveredProcedure className='text-2xl' />
             </button>
 
-            <p className="font-poppins text-sky-500 text-xl -top-7 relative">
+            <p className="font-poppins text-sky-500 text-xl -top-7 relative px-5">
               <strong>Flexibilidad y acceso de por vida</strong>
             </p>
-            <p className="font-poppins -top-4 relative text-gray-200">
+            <p className="font-poppins -top-4 relative text-gray-200 px-5">
               El aprendizaje en línea permite a los estudiantes aprender en su
               propio horario y ritmo, lo que puede ser especialmente útil para
               aquellos que tienen otros compromisos, como trabajo o familia.
@@ -64,13 +64,13 @@ const Banner = () => {
           </div>
           <div className="bg-gray-900  flex flex-col items-center  p-2 rounded-3xl drop-shadow-2xl ">
             <button className="bg-gray-900 py-4 px-4 -top-7 relative  rounded-full font-bold text-sky-500">
-              <IoMdOptions />
+              <IoMdOptions className='text-2xl'/>
             </button>
 
-            <p className="font-poppins text-sky-500 text-xl -top-7 relative">
+            <p className="font-poppins text-sky-500 text-xl -top-7 relative px-5">
               <strong>Variedad de opciones</strong>
             </p>
-            <p className="font-poppins  relative text-gray-200">
+            <p className="font-poppins  relative text-gray-200 px-5 pb-5">
               Se te ofrece una amplia variedad de opciones de cursos y
               programas, lo que significa que podrás elegir en que areas te
               quieres especializar Ej: Ingles, Marketing, emprendimiento.
@@ -78,13 +78,13 @@ const Banner = () => {
           </div>
           <div className="bg-gray-900  flex flex-col items-center  p-2 rounded-3xl shadow-lg ">
             <button className="bg-gray-900 py-4 px-4 -top-7 relative  rounded-full font-bold text-sky-500">
-              <MdOutlineMoreTime />
+              <MdOutlineMoreTime className='text-2xl' />
             </button>
 
-            <p className="font-poppins text-sky-500 text-xl -top-7 relative">
+            <p className="font-poppins text-sky-500 text-xl -top-7 relative px-5">
               <strong>Ahorro de tiempo y dinero</strong>
             </p>
-            <p className="font-poppins  relative text-gray-200">
+            <p className="font-poppins  relative text-gray-200 px-5 pb-5">
               El aprendizaje en línea puede ahorrar a los estudiantes tiempo y
               dinero al eliminar la necesidad de viajar y alojarse en otro lugar
               para asistir a clases.
@@ -92,13 +92,13 @@ const Banner = () => {
           </div>
           <div className="bg-gray-900  flex flex-col items-center  p-2 rounded-3xl drop-shadow-2xl ">
             <button className="bg-gray-900 py-4 px-4 -top-7 relative  rounded-full font-bold text-sky-500">
-              <BsFillPatchCheckFill />
+              <BsFillPatchCheckFill className='text-2xl'/>
             </button>
 
-            <p className="font-poppins text-sky-500 text-xl -top-7 relative">
+            <p className="font-poppins text-sky-500 text-xl -top-7 relative px-5 ">
               <strong>Aprendizaje Personalizado</strong>
             </p>
-            <p className="font-poppins  relative text-gray-200">
+            <p className="font-poppins  relative text-gray-200 px-5 pb-5">
               Los estudiantes pueden aprender a su propio ritmo y tienen la
               capacidad de revisar el material tantas veces como sea necesario
               para comprender completamente el tema.
@@ -106,13 +106,13 @@ const Banner = () => {
           </div>
           <div className="bg-gray-900  flex flex-col items-center  p-2 rounded-3xl drop-shadow-2xl ">
             <button className="bg-gray-900 py-4 px-4 -top-7 relative  rounded-full font-bold text-sky-500">
-              <TbFileCertificate />
+              <TbFileCertificate className='text-2xl'/>
             </button>
 
-            <p className="font-poppins text-sky-500 text-xl -top-7 relative">
+            <p className="font-poppins text-sky-500 text-xl -top-7 relative px-5">
               <strong>Certificación</strong>
             </p>
-            <p className="font-poppins  relative text-gray-200">
+            <p className="font-poppins  relative text-gray-200 px-5 pb-5">
               Una vez finalices tus estudios recibiras tu diploma, que certifica
               que terminaste el curso y cuentas con las habilidades necesarias
               para desempeñar tu labor.
@@ -121,13 +121,13 @@ const Banner = () => {
           </div>
           <div className="bg-gray-900  flex flex-col items-center  p-2 rounded-3xl drop-shadow-2xl  ">
             <button className="bg-gray-900 py-4 px-4 -top-7 relative  rounded-full font-bold text-sky-500">
-              <MdSecurity />
+              <MdSecurity className='text-2xl' />
             </button>
 
-            <p className="font-poppins text-sky-500 text-xl -top-7 relative">
+            <p className="font-poppins text-sky-500 text-xl -top-7 relative px-5 ">
               <strong>Seguridad y compromiso</strong>
             </p>
-            <p className="font-poppins  relative text-gray-200">
+            <p className="font-poppins  relative text-gray-200 px-5 pb-5">
              Utilizamos la plataforma #1 a nivel mundial para alojar nuestros cursos y brindarte la mejor seguridad de pago,
              ademas si no te sientes a gusto, tienes 7 dias de garantia y el desembolso del 100%  del dinero.
               
