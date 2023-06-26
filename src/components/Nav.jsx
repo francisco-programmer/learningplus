@@ -7,7 +7,7 @@ import { BsInstagram } from 'react-icons/bs'
 import { ImLinkedin } from 'react-icons/im'
 import {ImWhatsapp} from 'react-icons/im'
 
-import logo from "/learningplusweb.png"
+import logo from "../assets/englisnow/logoblanco.png"
 
 
 
