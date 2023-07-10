@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import EnglishNow from './pages/EnglishNow.jsx';
+import DecoracionDeFiestas from './pages/DecoracionDeFiestas.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
 {
   path:"englishnow",
   element: <EnglishNow />,
+},
+{
+  path:"decoracion-de-fiestas",
+  element: <DecoracionDeFiestas />
 },
 ]);
 

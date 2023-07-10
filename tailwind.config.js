@@ -10,6 +10,9 @@ export default {
       backgroundImage: {
         'hero': "url('./src/assets/englishnow/teamwork.avif')",
       },
+      colors: {
+        'redventa': '#D1000A'
+      }
     },
   },
   plugins: [],

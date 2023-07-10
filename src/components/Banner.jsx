@@ -32,7 +32,7 @@ const Banner = () => {
             guste!
           </p>
           <div className="py-5">
-            <button className="border border-green-500 hover:bg-green-500  text-green-500 hover:text-gray-900 p-3 rounded-full flex gap-2 items-center">
+            <button className="border border-green-500 hover:bg-green-500  text-green-500 hover:text-gray-900 p-3 rounded-full flex gap-2 items-center" onClick={() => window.open("https://walink.co/8d7c86", "_blank")}>
               Contáctame
               <ImWhatsapp />
             </button>

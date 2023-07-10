@@ -1,12 +1,12 @@
 import React from 'react'
 import wavegris from '../../../assets/wavegris.svg'
-import player from '../../../assets/englisnow/player.webp'
+import pre from '../../../assets/decoraciondefiestas/deco.jpg'
 import siete from '../../../assets/englisnow/7.png'
 import cien from '../../../assets/englisnow/100.png'
 
 const Satisfaccion = () => {
   const hotlink = () => {
-    window.open("https://go.hotmart.com/F82923352C?ap=acab", "")
+    window.open("https://go.hotmart.com/N84401792U?ap=fbf3", "")
   }
   return (
     <div>
@@ -17,17 +17,17 @@ const Satisfaccion = () => {
         
 <div>
 
-          <img src={player} alt="" />
+          <img src={pre} alt="" className='rounded  w-full  ' />
 </div>
 
-          <div className="flex flex-col justify-around">
-            <img src={siete} className="w-28 relative -left-10" />
-            <img src={cien} className="w-32 -left-10 relative" />
+          <div className="flex flex-col justify-around ">
+            <img src={siete} className=" w-40 z-40 sm:relative -left-10 -top-4 sm:-top-0" />
+            <img src={cien} className=" w-40 z-40 -left-10 -top-10 sm:relative" />
           </div>
          
         </div>
         <div className="sm:w-2/4">
-          <p className="sm:pt-20 pb-10 px-5 text-lg font-poppins font-bold text-justify">
+          <p className="  pb-10 px-5 text-lg font-poppins font-bold text-justify">
             Estamos tan seguros de que esta capacitación te dará los resultados
             que quieres que si por alguna razón después de ver el curso en su
             totalidad y de ponerlo a prueba no quedas 100% satisfecho, tienes 7
@@ -35,8 +35,8 @@ const Satisfaccion = () => {
             Sin preguntas. Esto te lo garantiza HOTMART.
           </p>
           <div className="flex justify-center mb-10">
-            <button className="bg-yellow-400 font-poppins font-bold py-3 px-10 shadow-lg hover:shadow-xl hover:bg-sky-500 rounded-full sm:text-3xl text-lg" onClick={hotlink}>
-              MATRICULAR PROGRAMA
+            <button className="bg-yellow-400 font-poppins font-bold py-3 px-10 shadow-lg hover:shadow-xl hover:bg-yellow-500 rounded-full sm:text-3xl text-lg" onClick={hotlink}>
+              INSCRIBIRME AL PROGRAMA
             </button>
           </div>
         </div>

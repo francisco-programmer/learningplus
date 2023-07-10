@@ -70,7 +70,7 @@ const Nav = () => {
               <FaFacebookSquare className="hover:text-blue-500 cursor-pointer" onClick={() => window.open('https://www.facebook.com/agency.axios', '_blank')} />
               <BsInstagram className="hover:text-pink-500 cursor-pointer" onClick={() => window.open('https://www.instagram.com/axios.agency/', '_blank')}/>
               <ImLinkedin className="hover:text-blue-800 cursor-pointer" />
-              <ImWhatsapp className="hover:text-green-500 cursor-pointer" onClick={() => window.open('wa.link/v4ppjl', '_blank')}/>
+              <ImWhatsapp className="hover:text-green-500 cursor-pointer" onClick={() => window.open("https://walink.co/8d7c86", "_blank")}/>
             </div>
           </header>
           {/* button menu lateral */}
