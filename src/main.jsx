@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import EnglishNow from './pages/EnglishNow.jsx';
 import DecoracionDeFiestas from './pages/DecoracionDeFiestas.jsx';
+import DeCeroTuPrimerEmpleo from './pages/DeCeroTuPrimerEmpleo.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   path:"decoracion-de-fiestas",
   element: <DecoracionDeFiestas />
 },
+{
+  path:"de-cero-a-tu-primer-empleo-en-ingles",
+  element: <DeCeroTuPrimerEmpleo />
+}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,7 +1,8 @@
 import React from 'react'
 import wave from '../assets/wave.png'
-import englisnow from '../assets/englisnow/pre.webp'
+import englisnow from '../assets/englisnow/cover.png'
 import decoraciondefiestas from '../assets/decoraciondefiestas/deco.jpg'
+import empleoingles from '../assets/decerotuprimerempleo/ingles.png'
 import {AiFillStar} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import Contador from './Contador'
@@ -21,7 +22,7 @@ const Courses = () => {
           <div className='hover:shadow-2xl hover:shadow-black'>
             <Link to="englishnow">
             <div className=''>
-              <img src={englisnow} className='rounded scale-90 hover:scale-100  duration-1000 h-60 w-full ' />              
+              <img src={englisnow} className='rounded scale-90 hover:scale-100  duration-1000  w-full ' />              
             </div> 
            
             <div className='flex gap-2 items-center p-3'>
@@ -50,7 +51,21 @@ const Courses = () => {
             </Link>
           </div>
           {/* curso 3 */}
-          
+          <div className='hover:shadow-2xl hover:shadow-black'>
+            <Link to="de-cero-a-tu-primer-empleo-en-ingles">
+            <div className=''>
+              <img src={empleoingles} className='rounded scale-90 hover:scale-100  duration-1000 ' />              
+            </div> 
+           
+            <div className='flex gap-2 items-center p-3'>
+              <p className='text-gray-500 font-bold font-poppins text-sm'>5.0 </p>
+              <AiFillStar  className='text-yellow-500'/>
+            </div>
+            <div>
+              <p className='text-gray-200 font-bold font-poppins text-sm px-3'>De cero a tu Primer Trabajo en Inglés</p>
+            </div>
+            </Link>
+          </div>
           {/* curso 4 */}
           
            

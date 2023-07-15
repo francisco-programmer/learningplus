@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import {RxLapTimer} from 'react-icons/rx'
 
-const Contador = () => {
-  const [seconds, setSeconds] = useState(parseInt(localStorage.getItem('countdownSeconds')) || 900);
+const Contador = (props) => {
+  const [seconds, setSeconds] = useState(parseInt(localStorage.getItem(props.item)) || 900);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -15,7 +15,7 @@ const Contador = () => {
   }, [seconds]);
 
   useEffect(() => {
-    localStorage.setItem('countdownSeconds', seconds);
+    localStorage.setItem(props.item, seconds);
   }, [seconds]);
 
   const formatTime = (time) => {

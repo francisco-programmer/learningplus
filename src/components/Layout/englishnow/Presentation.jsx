@@ -1,5 +1,5 @@
 import React from 'react'
-import pre from '../../../assets/englisnow/pre.webp'
+import pre from '../../../assets/englisnow/cover.png'
 import familia from '../../../assets/englisnow/familia.webp'
 import { BsFillPersonCheckFill } from 'react-icons/bs'
 import wave from '../../../assets/wave.png'
@@ -22,7 +22,7 @@ const Presentation = () => {
   }
 
   return (
-    <div>
+    <div className='mt-20'>
       <h1 className="sm:text-5xl text-xl  text-center text-gray-900 font-extrabold p-3 font-sans leading-snug ">
         {" "}
         APRENDE INGLÉS RÁPIDAMENTE CON UN MÉTODO ALTAMENTE EFECTIVO Y A TU

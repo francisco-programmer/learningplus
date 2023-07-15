@@ -13,7 +13,7 @@ const DecoracionDeFiestas = () => {
   return (
     <div className='overflow-x-hidden'>
       <ScrollToTopMount />
-        <Contador />
+        <Contador item='time'/>
         <Presentation />
         <Beneficios />
         <Instructoras />
