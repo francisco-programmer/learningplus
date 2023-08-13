@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Video = () => {
+  const anchopantalla = screen.width
   return (
     <div>
         <div className="w-screen">
@@ -18,14 +19,15 @@ const Video = () => {
             <div className="block sm:hidden">
               <iframe
                 src="https://player.vimeo.com/video/801056158?color&autopause=0&loop=0&muted=0&title=1&portrait=1&byline=1#t="
-                width="400"
-                height="360"
+                width={anchopantalla}
+                height={anchopantalla}
                 frameborder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowfullscreen
               ></iframe>
             </div>
           </div>
+          
     </div>
   )
 }

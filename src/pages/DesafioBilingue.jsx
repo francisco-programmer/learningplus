@@ -4,6 +4,7 @@ import Informacion from '../components/Layout/desafiobilingue/Informacion'
 import QuienesSomos from '../components/Layout/desafiobilingue/QuienesSomos'
 
 const DesafioBilingue = () => {
+  document.title = "Desafio Bilingue"
   const fechainicio =  '21 DE AGOSTO'
   const fechafin =  '25 DE AGOSTO'
   const WhatsApp = ''

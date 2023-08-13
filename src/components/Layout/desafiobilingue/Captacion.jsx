@@ -27,18 +27,18 @@ const Captacion = (props) => {
        <div className='backdrop-opacity-10 backdrop-invert bg-purple-900/90'>
 
        
-        <div className='px-40 flex flex-col gap-5'>
-          <p className='text-white text-3xl text-center font-bold font-poppins'>¿Necesitas aprender Inglés en los proximos meses?</p>
-          <p className='text-white text-3xl text-center font-bold font-poppins'>
+        <div className='lg:px-40 px-2 flex flex-col gap-5 py-5'>
+          <p className='text-white  lg:text-3xl text-2xl text-center font-bold font-poppins'>¿Necesitas aprender Inglés en los proximos meses?</p>
+          <p className='text-white lg:text-3xl text-2xl text-center font-bold font-poppins'>
             Aplicando este Método vas a hablar el <strong className='bg-redventa'>Inglés de 3 años en 9 meses </strong>
             tan fácil como si volvieras a nacer
           </p>
-          <p className='text-white text-3xl text-center font-poppins'>Sólo te falta <strong>1 PASO</strong> para asegurar tu cupo...</p>
+          <p className='text-white lg:text-3xl text-2xl text-center font-poppins'>Sólo te falta <strong>1 PASO</strong> para asegurar tu cupo...</p>
         </div>
         {/* video */}
        <Video />
-       <p className='text-white text-3xl text-center  font-poppins'>Asegura tu cupo tocando el botón verde:</p>
-       <div className='py-10 flex justify-center'>
+       <p className='text-white lg:text-3xl text-2xl text-center px-2 font-poppins'>Asegura tu cupo tocando el botón verde:</p>
+       <div className='lg:py-10 flex justify-center'>
          <button> <img src={buton} alt="" /></button>
        </div>
       </div>

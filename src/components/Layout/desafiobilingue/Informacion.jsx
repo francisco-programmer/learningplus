@@ -6,8 +6,8 @@ const Informacion = (props) => {
     <div>
 
       <div className='bg-black text-gray-200 py-10' >
-        <p className='text-4xl font-poppins text-yellow-500 px-72 text-center font-bold py-10'>EVENTO DISPONIBLE POR UNICA VEZ DEL {props.fechainicio} AL {props.fechafin}</p>
-        <div className='px-72 font-poppins flex flex-col gap-8'>
+        <p className='lg:text-4xl text-2xl font-poppins text-yellow-500 lg:px-72 px-2 text-center font-bold py-10'>EVENTO DISPONIBLE POR UNICA VEZ DEL {props.fechainicio} AL {props.fechafin}</p>
+        <div className='lg:px-72 px-5 font-poppins flex flex-col gap-8'>
           <p>Tenemos un gran desafío y es avisarte en <strong>tiempo real</strong> cuando se estrenen cada uno de los enlaces de las clases para que ingreses y no te las pierdas.</p>
           <p>Por tal motivo hemos creado un <strong>grupo de WhatsApp,</strong> en donde te enviaremos el <strong>link de cada entrenamiento</strong> unos minutos antes de su estreno, además te enviaremos contenido e información muy importante, en este grupo sólo escribirá el administrador y no vas a recibir spam.</p>
           <p>Para no perderte ninguna de nuestras clases, sólo debes dar clic en el <strong>BOTÓN verde y unirte al Grupo de WhatsApp.</strong></p>
@@ -17,9 +17,9 @@ const Informacion = (props) => {
      
       <div className="w-full bg-[url('https://img.freepik.com/free-photo/flag-united-states-america_1401-253.jpg?w=740&t=st=1691951779~exp=1691952379~hmac=0a53706bb21b5ac48c6506c0abd6803a63dc67db92a5b9ce44a51b6697a8ecb3')]  bg-cover bg-center  ">
       <div className='backdrop-opacity-10 backdrop-invert bg-purple-900/90'>
-      <p className='text-4xl font-poppins text-yellow-500 px-72 text-center font-bold py-10 italic'>PARA QUIEN ES ESTE EVENTO:</p>
+      <p className='text-4xl font-poppins text-yellow-500 lg:px-72 px-5 text-center font-bold py-10 italic'>PARA QUIEN ES ESTE EVENTO:</p>
 
-<ol className='flex justify-start flex-col  gap-2 px-72 font-poppins text-white pb-10' start="1">
+<ol className='flex justify-start flex-col  gap-2 lg:px-72  px-5 font-poppins text-white pb-10' start="1">
         <li><strong>1.</strong> Personas que requieren con urgencia aprender inglés por alguna razón.</li>
         <li><strong>2.</strong> Personas que han intentando aprender Ingles de diferentes maneras pero por alguna razón no han logrado la fluidez del idioma</li>
         <li><strong>3.</strong> Personas que saben o sienten que le método tradicional de aprendizaje no funciona.</li>
