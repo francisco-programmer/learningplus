@@ -7,11 +7,15 @@ const DesafioBilingue = () => {
   document.title = "Desafio Bilingue"
   const fechainicio =  '21 DE AGOSTO'
   const fechafin =  '25 DE AGOSTO'
-  const WhatsApp = ''
+
+  function whatsapp () {
+    window.open('https://chat.whatsapp.com/LkXkc2PsibiAjKj3SiVo5y', '')
+  }
+  
   return (
     <div>
-        <Captacion fechainicio={fechainicio}  fechafin={fechafin}/>
-        <Informacion fechainicio={fechainicio}  fechafin={fechafin} />
+        <Captacion fechainicio={fechainicio}  fechafin={fechafin} whatsapp={whatsapp} />
+        <Informacion fechainicio={fechainicio}  fechafin={fechafin} whatsapp={whatsapp} />
         <QuienesSomos />
 
     </div>

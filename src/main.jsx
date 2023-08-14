@@ -10,6 +10,7 @@ import EnglishNow from './pages/EnglishNow.jsx';
 import DecoracionDeFiestas from './pages/DecoracionDeFiestas.jsx';
 import DeCeroTuPrimerEmpleo from './pages/DeCeroTuPrimerEmpleo.jsx';
 import DesafioBilingue from './pages/DesafioBilingue.jsx';
+import Metodo3en9 from './pages/Metodo3en9.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
 {
   path:"desafiobilingue",
   element: <DesafioBilingue />
+},
+{
+  path: "bilingue-en-9-meses",
+  element: <Metodo3en9 />
 }
 ]);
 

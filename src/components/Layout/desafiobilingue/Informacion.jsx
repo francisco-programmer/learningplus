@@ -34,7 +34,7 @@ const Informacion = (props) => {
       
       </ol>
       <div className='pb-10 flex justify-center'>
-         <button> <img src={buton} alt="" /></button>
+         <button onClick={props.whatsapp}> <img src={buton} alt="" /></button>
        </div>
       </div>
       </div>

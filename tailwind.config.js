@@ -11,7 +11,9 @@ export default {
         'hero': "url('./src/assets/englishnow/teamwork.avif')",
       },
       colors: {
-        'redventa': '#D1000A'
+        'redventa': '#D1000A',
+        'moradovivo': '#7a15bc',
+        'cian': '#0AF3C9'
       }
     },
   },

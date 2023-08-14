@@ -39,7 +39,7 @@ const Captacion = (props) => {
        <Video />
        <p className='text-white lg:text-3xl text-2xl text-center px-2 font-poppins'>Asegura tu cupo tocando el botón verde:</p>
        <div className='lg:py-10 flex justify-center'>
-         <button> <img src={buton} alt="" /></button>
+         <button onClick={props.whatsapp} > <img src={buton} alt="" /></button>
        </div>
       </div>
       </div>
